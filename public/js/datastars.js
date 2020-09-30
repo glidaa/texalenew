@@ -707,8 +707,8 @@ fragmentShader:"uniform vec3 color;\nuniform sampler2D map;\nuniform float opaci
 
 
 var SEPARATION = 100,
-        AMOUNTX = 100,
-        AMOUNTY = 70;
+    AMOUNTX = 100,
+    AMOUNTY = 70;
  
     var container;
     var camera, scene, renderer;
@@ -739,11 +739,11 @@ var SEPARATION = 100,
         var PI2 = Math.PI * 2;
         var material = new THREE.ParticleCanvasMaterial({
  
-            color: 16492839,
+            color: 11111100,
             program: function(context) {
  
                 context.beginPath();
-                context.arc(0, 0, .6, 0, PI2, true);
+                context.arc(0, 0, .7, 0, PI2, true);
                 context.fill();
  
             }
